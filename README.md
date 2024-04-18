@@ -25,6 +25,30 @@ and start customizing the website
 - CSS
 - PHP
 
+## Preview
+### Components
+
+<table>
+  <tr>
+    <td width="33.3333%">HTML</td>
+    <td width="33.3333%">CSS</td>
+    <td width="33.3333%">PHP</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+        <img alt="HTML" src="assets/preview/preview-tabs-html.png">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+        <img alt="CSS" src="assets/preview/preview-tabs-css.png">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+        <img alt="PHP" src="assets/preview/preview-tabs-php.png">
+    </td>
+  </tr>
+</table>
+
+<br />
+
 ## Authors
 
 - **Jagaddhita** - [thejgdt](https://github.com/thejgdt)
