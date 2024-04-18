@@ -74,7 +74,7 @@
                     </a>
                 </div>
 
-                <a href="https://tailwindflex.com/playground">
+                <a href="#">
                     <button
                         class=" py-1.5 px-3 m-1 text-center bg-violet-700 border rounded-md text-white  hover:bg-violet-500 hover:text-gray-100 dark:text-gray-200 dark:bg-violet-700 hidden lg:block">
                         About Us
@@ -84,6 +84,65 @@
             </div>
         </div>
     </nav>
+
+    <!-- Mobile Navbar -->
+    <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-50"></div>
+        <nav
+            class="fixed bg-white dark:bg-gray-600 top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 border-r overflow-y-auto">
+
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-2xl font-bold text-black text-violet-600 dark:text-gray-100" href="#">
+                    NativeDash
+                </a>
+
+                <button class="navbar-close">
+                    <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mt-auto">
+
+                <div class="pt-6">
+
+                    <a class="block py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black  hover:bg-gray-100 dark:text-gray-300 dark:bg-gray-700 px-4 py-3 mb-3 text-sm text-center font-semibold rounded-xl"
+                        href="#">
+                        Profile
+                    </a>
+
+                    <a class="block py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black  hover:bg-gray-100 dark:text-gray-300 dark:bg-gray-700 px-4 py-3 mb-3 text-sm text-center font-semibold rounded-xl"
+                        href="#">
+                        Visi & Misi
+                    </a>
+
+                    <a class="block py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black  hover:bg-gray-100 dark:text-gray-300 dark:bg-gray-700 px-4 py-3 mb-3 text-sm text-center font-semibold rounded-xl"
+                        href="#">
+                        Kontak Kami
+                    </a>
+
+                    <a class="block py-1.5 px-3 m-1 text-center bg-gray-100 border border-gray-300 rounded-md text-black  hover:bg-gray-100 dark:text-gray-300 dark:bg-gray-700 px-4 py-3 mb-3 text-sm text-center font-semibold rounded-xl"
+                        href="#">
+                        Produk Kami
+                    </a>
+
+                    <a class="block py-1.5 px-3 m-1 text-center bg-violet-700 border rounded-md text-white  hover:bg-violet-500 hover:text-gray-100 dark:text-gray-200 dark:bg-violet-700 px-4 py-3 mb-2 text-xs text-center text-white font-semibold bg-violet-600 hover:bg-violet-700  rounded-xl"
+                        href="#">
+                        About Us
+                    </a>
+
+                </div>
+                <p class="my-4 text-xs text-center text-gray-400">
+                    <span><b>thejgdt </b>Copyright &copy; 2024</span>
+                </p>
+            </div>
+        </nav>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
